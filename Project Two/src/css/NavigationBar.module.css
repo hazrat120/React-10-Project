@@ -1,0 +1,27 @@
+.navHead {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_ul {
+  display: flex;
+  gap: 24px;
+}
+
+.nav_ul li {
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--kala);
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--main);
+  transition: all linear 0.3s;
+}
+
+.nav_ul li:hover {
+  background-color: var(--sada);
+  color: var(--main);
+}

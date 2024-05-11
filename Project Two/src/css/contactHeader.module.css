@@ -1,0 +1,21 @@
+.contact_head {
+  margin-top: 50px;
+}
+
+.contact_text {
+  width: 1161px;
+  margin: 0 auto;
+}
+
+.contact_text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--kala);
+}
+
+.contact_text p {
+  width: 975px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray);
+}

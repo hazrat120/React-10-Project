@@ -1,0 +1,42 @@
+.btn {
+  width: 220px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--sada);
+  background-color: var(--kala);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all linear 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--sada);
+  color: var(--kala);
+  border: 1px solid black;
+}
+
+.w_btn {
+  width: 472px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--kala);
+  border: 1px solid black;
+  background-color: var(--sada);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all linear 0.4s;
+  cursor: pointer;
+}
+
+.w_btn:hover {
+  background-color: var(--kala);
+  color: var(--sada);
+  border: 1px solid black;
+}
